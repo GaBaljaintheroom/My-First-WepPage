@@ -30,6 +30,13 @@ h3{
   left: 1%;
 }
 
+/* 할일 목록 및 폼 */
+input[type=checkbox]{
+
+  width: 15px;
+  height: 15px;
+}
+
 #todo-list{
   position: fixed;
   list-style: none;

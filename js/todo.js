@@ -30,6 +30,10 @@ function painTodo(newTodo) {
   button.innerText = "❌";                          // button 태그 내부
   button.addEventListener("click", deleteTodo);     // click event 함수 호출
 
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+
+  li.appendChild(checkbox);
   li.appendChild(span);                         // li 자식 노드로 span 추가
   li.appendChild(button);                       // li 자식 노드로 button 추가
   toDoList.appendChild(li);                     // toDoList에 ul> li 추가
